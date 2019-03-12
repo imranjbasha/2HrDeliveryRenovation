@@ -1,0 +1,926 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		566B59F1CB83B580A3E7DF47 /* Pods_2Hr_Delivery_Renovation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE65E9FC59BDD8095DB10FA /* Pods_2Hr_Delivery_Renovation.framework */; };
+		66B23AD37C9F34B1732EB4BB /* Pods_2Hr_Delivery_RenovationUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B0D7D3F9FA138A3CA625D7 /* Pods_2Hr_Delivery_RenovationUITests.framework */; };
+		E610B05630A98AA15414597B /* Pods_2Hr_Delivery_RenovationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B035B2DAA38CAFC004DA7EF /* Pods_2Hr_Delivery_RenovationTests.framework */; };
+		F38620272237B478003E230D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38620262237B478003E230D /* AppDelegate.swift */; };
+		F38620292237B478003E230D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38620282237B478003E230D /* ViewController.swift */; };
+		F386202E2237B47D003E230D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F386202D2237B47D003E230D /* Assets.xcassets */; };
+		F38620312237B47D003E230D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F386202F2237B47D003E230D /* LaunchScreen.storyboard */; };
+		F386203C2237B47D003E230D /* _Hr_Delivery_RenovationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F386203B2237B47D003E230D /* _Hr_Delivery_RenovationTests.swift */; };
+		F38620472237B47D003E230D /* _Hr_Delivery_RenovationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38620462237B47D003E230D /* _Hr_Delivery_RenovationUITests.swift */; };
+		F3A517392237BC970007000A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A517382237BC970007000A /* Main.storyboard */; };
+		F3A5173E2237BEB30007000A /* GroceryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A5173D2237BEB30007000A /* GroceryViewController.swift */; };
+		F3A517402237BEE30007000A /* UserHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A5173F2237BEE30007000A /* UserHomeViewController.swift */; };
+		F3A517422237BF110007000A /* GroceryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A517412237BF110007000A /* GroceryDetailViewController.swift */; };
+		F3A517442237BF4C0007000A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A517432237BF4C0007000A /* FirstViewController.swift */; };
+		F3A517462237BF720007000A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A517452237BF720007000A /* LoginViewController.swift */; };
+		F3A517482237BFAB0007000A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A517472237BFAB0007000A /* SignUpViewController.swift */; };
+		F3A5174A2237BFDD0007000A /* DeliveryAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A517492237BFDD0007000A /* DeliveryAddressViewController.swift */; };
+		F3A5174C2237C0550007000A /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A5174B2237C0550007000A /* PreferencesViewController.swift */; };
+		F3A5174E2237C0760007000A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A5174D2237C0760007000A /* HomeViewController.swift */; };
+		F3A517502237C0A40007000A /* FacebookAuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A5174F2237C0A40007000A /* FacebookAuthenticationViewController.swift */; };
+		F3A517522237C0D40007000A /* EmailSigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A517512237C0D40007000A /* EmailSigninViewController.swift */; };
+		F3A517542237C10C0007000A /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A517532237C10C0007000A /* ForgotPasswordViewController.swift */; };
+		F3A517562237C1780007000A /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A517552237C1780007000A /* CartViewController.swift */; };
+		F3A517582237C19D0007000A /* ConfirmDeliveryAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A517572237C19D0007000A /* ConfirmDeliveryAddressViewController.swift */; };
+		F3A5175A2237C1C10007000A /* DeliveryDateTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A517592237C1C10007000A /* DeliveryDateTimeViewController.swift */; };
+		F3A5175C2237C1DD0007000A /* DeliveryOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A5175B2237C1DD0007000A /* DeliveryOptionsViewController.swift */; };
+		F3A5175E2237C1FD0007000A /* PaymentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A5175D2237C1FD0007000A /* PaymentDetailsViewController.swift */; };
+		F3A517602237C2250007000A /* CreditCardDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A5175F2237C2250007000A /* CreditCardDetailsViewController.swift */; };
+		F3A517622237C2470007000A /* PaymentWithCardDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A517612237C2470007000A /* PaymentWithCardDetailViewController.swift */; };
+		F3A517642237C2710007000A /* OrderConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A517632237C2710007000A /* OrderConfirmationViewController.swift */; };
+		F3A517662237C29E0007000A /* ThankyouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A517652237C29E0007000A /* ThankyouViewController.swift */; };
+		F3A517812237D3700007000A /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A517682237D36E0007000A /* check.png */; };
+		F3A517822237D3700007000A /* down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A517692237D36E0007000A /* down@2x.png */; };
+		F3A517832237D3700007000A /* first@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A5176A2237D36E0007000A /* first@3x.png */; };
+		F3A517842237D3700007000A /* trash.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A5176B2237D36E0007000A /* trash.png */; };
+		F3A517852237D3700007000A /* banner.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A5176C2237D36F0007000A /* banner.png */; };
+		F3A517862237D3700007000A /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A5176D2237D36F0007000A /* cart.png */; };
+		F3A517872237D3700007000A /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A5176E2237D36F0007000A /* back.png */; };
+		F3A517882237D3700007000A /* first~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A5176F2237D36F0007000A /* first~ipad.png */; };
+		F3A517892237D3700007000A /* orderdelivery.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A517702237D36F0007000A /* orderdelivery.png */; };
+		F3A5178A2237D3700007000A /* cart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A517712237D36F0007000A /* cart@2x.png */; };
+		F3A5178B2237D3700007000A /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A517722237D36F0007000A /* facebook.png */; };
+		F3A5178C2237D3700007000A /* strip.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A517732237D36F0007000A /* strip.png */; };
+		F3A5178D2237D3700007000A /* shoppingcart.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A517742237D36F0007000A /* shoppingcart.png */; };
+		F3A5178E2237D3700007000A /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A517752237D36F0007000A /* first.png */; };
+		F3A5178F2237D3700007000A /* minus-symbol.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A517762237D36F0007000A /* minus-symbol.png */; };
+		F3A517902237D3700007000A /* uncheck.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A517772237D36F0007000A /* uncheck.png */; };
+		F3A517912237D3700007000A /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A517782237D36F0007000A /* down.png */; };
+		F3A517922237D3700007000A /* addtocart.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A517792237D36F0007000A /* addtocart.png */; };
+		F3A517932237D3700007000A /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A5177A2237D36F0007000A /* back@2x.png */; };
+		F3A517942237D3700007000A /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A5177B2237D36F0007000A /* first@2x.png */; };
+		F3A517952237D3700007000A /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A5177C2237D36F0007000A /* add.png */; };
+		F3A517962237D3700007000A /* first~ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A5177D2237D3700007000A /* first~ipad@2x.png */; };
+		F3A517972237D3700007000A /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A5177E2237D3700007000A /* like.png */; };
+		F3A517982237D3700007000A /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A5177F2237D3700007000A /* search.png */; };
+		F3A517992237D3700007000A /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3A517802237D3700007000A /* search@2x.png */; };
+		F3A5179F2237D6B10007000A /* GroceryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3A5179B2237D6B10007000A /* GroceryCell.xib */; };
+		F3A517A02237D6B10007000A /* GroceryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A5179C2237D6B10007000A /* GroceryCell.swift */; };
+		F3A517A12237D6B10007000A /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A5179D2237D6B10007000A /* HomeViewCell.swift */; };
+		F3A517A22237D6B10007000A /* HomeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3A5179E2237D6B10007000A /* HomeViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F38620382237B47D003E230D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F386201B2237B477003E230D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F38620222237B478003E230D;
+			remoteInfo = "2Hr Delivery Renovation";
+		};
+		F38620432237B47D003E230D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F386201B2237B477003E230D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F38620222237B478003E230D;
+			remoteInfo = "2Hr Delivery Renovation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D916F3306B9F1FF458478AB /* Pods-2Hr Delivery RenovationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2Hr Delivery RenovationTests.debug.xcconfig"; path = "Target Support Files/Pods-2Hr Delivery RenovationTests/Pods-2Hr Delivery RenovationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1178CA176A034B2AF2C83B0C /* Pods-2Hr Delivery RenovationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2Hr Delivery RenovationUITests.release.xcconfig"; path = "Target Support Files/Pods-2Hr Delivery RenovationUITests/Pods-2Hr Delivery RenovationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2FE65E9FC59BDD8095DB10FA /* Pods_2Hr_Delivery_Renovation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_2Hr_Delivery_Renovation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B0D7D3F9FA138A3CA625D7 /* Pods_2Hr_Delivery_RenovationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_2Hr_Delivery_RenovationUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		548A1CB1DBC6648A7766227D /* Pods-2Hr Delivery Renovation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2Hr Delivery Renovation.debug.xcconfig"; path = "Target Support Files/Pods-2Hr Delivery Renovation/Pods-2Hr Delivery Renovation.debug.xcconfig"; sourceTree = "<group>"; };
+		7B035B2DAA38CAFC004DA7EF /* Pods_2Hr_Delivery_RenovationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_2Hr_Delivery_RenovationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B75751AB296A848AC963822B /* Pods-2Hr Delivery RenovationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2Hr Delivery RenovationTests.release.xcconfig"; path = "Target Support Files/Pods-2Hr Delivery RenovationTests/Pods-2Hr Delivery RenovationTests.release.xcconfig"; sourceTree = "<group>"; };
+		ECF934EEB8201652C3A95CC1 /* Pods-2Hr Delivery Renovation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2Hr Delivery Renovation.release.xcconfig"; path = "Target Support Files/Pods-2Hr Delivery Renovation/Pods-2Hr Delivery Renovation.release.xcconfig"; sourceTree = "<group>"; };
+		F3648655402D3B8AF2DAB642 /* Pods-2Hr Delivery RenovationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2Hr Delivery RenovationUITests.debug.xcconfig"; path = "Target Support Files/Pods-2Hr Delivery RenovationUITests/Pods-2Hr Delivery RenovationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F38620232237B478003E230D /* 2Hr Delivery Renovation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2Hr Delivery Renovation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38620262237B478003E230D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F38620282237B478003E230D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F386202D2237B47D003E230D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F38620302237B47D003E230D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F38620322237B47D003E230D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F38620372237B47D003E230D /* 2Hr Delivery RenovationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2Hr Delivery RenovationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F386203B2237B47D003E230D /* _Hr_Delivery_RenovationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Hr_Delivery_RenovationTests.swift; sourceTree = "<group>"; };
+		F386203D2237B47D003E230D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F38620422237B47D003E230D /* 2Hr Delivery RenovationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2Hr Delivery RenovationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38620462237B47D003E230D /* _Hr_Delivery_RenovationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Hr_Delivery_RenovationUITests.swift; sourceTree = "<group>"; };
+		F38620482237B47D003E230D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3A517382237BC970007000A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F3A5173D2237BEB30007000A /* GroceryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryViewController.swift; sourceTree = "<group>"; };
+		F3A5173F2237BEE30007000A /* UserHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHomeViewController.swift; sourceTree = "<group>"; };
+		F3A517412237BF110007000A /* GroceryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryDetailViewController.swift; sourceTree = "<group>"; };
+		F3A517432237BF4C0007000A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		F3A517452237BF720007000A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F3A517472237BFAB0007000A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F3A517492237BFDD0007000A /* DeliveryAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryAddressViewController.swift; sourceTree = "<group>"; };
+		F3A5174B2237C0550007000A /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
+		F3A5174D2237C0760007000A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F3A5174F2237C0A40007000A /* FacebookAuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookAuthenticationViewController.swift; sourceTree = "<group>"; };
+		F3A517512237C0D40007000A /* EmailSigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailSigninViewController.swift; sourceTree = "<group>"; };
+		F3A517532237C10C0007000A /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		F3A517552237C1780007000A /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		F3A517572237C19D0007000A /* ConfirmDeliveryAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmDeliveryAddressViewController.swift; sourceTree = "<group>"; };
+		F3A517592237C1C10007000A /* DeliveryDateTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDateTimeViewController.swift; sourceTree = "<group>"; };
+		F3A5175B2237C1DD0007000A /* DeliveryOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryOptionsViewController.swift; sourceTree = "<group>"; };
+		F3A5175D2237C1FD0007000A /* PaymentDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailsViewController.swift; sourceTree = "<group>"; };
+		F3A5175F2237C2250007000A /* CreditCardDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardDetailsViewController.swift; sourceTree = "<group>"; };
+		F3A517612237C2470007000A /* PaymentWithCardDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentWithCardDetailViewController.swift; sourceTree = "<group>"; };
+		F3A517632237C2710007000A /* OrderConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderConfirmationViewController.swift; sourceTree = "<group>"; };
+		F3A517652237C29E0007000A /* ThankyouViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankyouViewController.swift; sourceTree = "<group>"; };
+		F3A517682237D36E0007000A /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		F3A517692237D36E0007000A /* down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down@2x.png"; sourceTree = "<group>"; };
+		F3A5176A2237D36E0007000A /* first@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@3x.png"; sourceTree = "<group>"; };
+		F3A5176B2237D36E0007000A /* trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trash.png; sourceTree = "<group>"; };
+		F3A5176C2237D36F0007000A /* banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner.png; sourceTree = "<group>"; };
+		F3A5176D2237D36F0007000A /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
+		F3A5176E2237D36F0007000A /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		F3A5176F2237D36F0007000A /* first~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first~ipad.png"; sourceTree = "<group>"; };
+		F3A517702237D36F0007000A /* orderdelivery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orderdelivery.png; sourceTree = "<group>"; };
+		F3A517712237D36F0007000A /* cart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cart@2x.png"; sourceTree = "<group>"; };
+		F3A517722237D36F0007000A /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		F3A517732237D36F0007000A /* strip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strip.png; sourceTree = "<group>"; };
+		F3A517742237D36F0007000A /* shoppingcart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoppingcart.png; sourceTree = "<group>"; };
+		F3A517752237D36F0007000A /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		F3A517762237D36F0007000A /* minus-symbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minus-symbol.png"; sourceTree = "<group>"; };
+		F3A517772237D36F0007000A /* uncheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uncheck.png; sourceTree = "<group>"; };
+		F3A517782237D36F0007000A /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		F3A517792237D36F0007000A /* addtocart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addtocart.png; sourceTree = "<group>"; };
+		F3A5177A2237D36F0007000A /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		F3A5177B2237D36F0007000A /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		F3A5177C2237D36F0007000A /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		F3A5177D2237D3700007000A /* first~ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first~ipad@2x.png"; sourceTree = "<group>"; };
+		F3A5177E2237D3700007000A /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		F3A5177F2237D3700007000A /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		F3A517802237D3700007000A /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
+		F3A5179B2237D6B10007000A /* GroceryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroceryCell.xib; sourceTree = "<group>"; };
+		F3A5179C2237D6B10007000A /* GroceryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroceryCell.swift; sourceTree = "<group>"; };
+		F3A5179D2237D6B10007000A /* HomeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
+		F3A5179E2237D6B10007000A /* HomeViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F38620202237B478003E230D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566B59F1CB83B580A3E7DF47 /* Pods_2Hr_Delivery_Renovation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38620342237B47D003E230D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E610B05630A98AA15414597B /* Pods_2Hr_Delivery_RenovationTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F386203F2237B47D003E230D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B23AD37C9F34B1732EB4BB /* Pods_2Hr_Delivery_RenovationUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AECCE1A7330711262DAB597 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FE65E9FC59BDD8095DB10FA /* Pods_2Hr_Delivery_Renovation.framework */,
+				7B035B2DAA38CAFC004DA7EF /* Pods_2Hr_Delivery_RenovationTests.framework */,
+				37B0D7D3F9FA138A3CA625D7 /* Pods_2Hr_Delivery_RenovationUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DC0743C8C0C1B22986E02FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				548A1CB1DBC6648A7766227D /* Pods-2Hr Delivery Renovation.debug.xcconfig */,
+				ECF934EEB8201652C3A95CC1 /* Pods-2Hr Delivery Renovation.release.xcconfig */,
+				0D916F3306B9F1FF458478AB /* Pods-2Hr Delivery RenovationTests.debug.xcconfig */,
+				B75751AB296A848AC963822B /* Pods-2Hr Delivery RenovationTests.release.xcconfig */,
+				F3648655402D3B8AF2DAB642 /* Pods-2Hr Delivery RenovationUITests.debug.xcconfig */,
+				1178CA176A034B2AF2C83B0C /* Pods-2Hr Delivery RenovationUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F386201A2237B477003E230D = {
+			isa = PBXGroup;
+			children = (
+				F38620252237B478003E230D /* 2Hr Delivery Renovation */,
+				F386203A2237B47D003E230D /* 2Hr Delivery RenovationTests */,
+				F38620452237B47D003E230D /* 2Hr Delivery RenovationUITests */,
+				F38620242237B478003E230D /* Products */,
+				8DC0743C8C0C1B22986E02FE /* Pods */,
+				6AECCE1A7330711262DAB597 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F38620242237B478003E230D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F38620232237B478003E230D /* 2Hr Delivery Renovation.app */,
+				F38620372237B47D003E230D /* 2Hr Delivery RenovationTests.xctest */,
+				F38620422237B47D003E230D /* 2Hr Delivery RenovationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F38620252237B478003E230D /* 2Hr Delivery Renovation */ = {
+			isa = PBXGroup;
+			children = (
+				F3A5179A2237D69C0007000A /* cells */,
+				F3A517672237D29B0007000A /* Images */,
+				F3A5173C2237BE740007000A /* ViewController */,
+				F38620262237B478003E230D /* AppDelegate.swift */,
+				F3A517382237BC970007000A /* Main.storyboard */,
+				F386202D2237B47D003E230D /* Assets.xcassets */,
+				F386202F2237B47D003E230D /* LaunchScreen.storyboard */,
+				F38620322237B47D003E230D /* Info.plist */,
+			);
+			path = "2Hr Delivery Renovation";
+			sourceTree = "<group>";
+		};
+		F386203A2237B47D003E230D /* 2Hr Delivery RenovationTests */ = {
+			isa = PBXGroup;
+			children = (
+				F386203B2237B47D003E230D /* _Hr_Delivery_RenovationTests.swift */,
+				F386203D2237B47D003E230D /* Info.plist */,
+			);
+			path = "2Hr Delivery RenovationTests";
+			sourceTree = "<group>";
+		};
+		F38620452237B47D003E230D /* 2Hr Delivery RenovationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F38620462237B47D003E230D /* _Hr_Delivery_RenovationUITests.swift */,
+				F38620482237B47D003E230D /* Info.plist */,
+			);
+			path = "2Hr Delivery RenovationUITests";
+			sourceTree = "<group>";
+		};
+		F3A5173C2237BE740007000A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F38620282237B478003E230D /* ViewController.swift */,
+				F3A5173D2237BEB30007000A /* GroceryViewController.swift */,
+				F3A5173F2237BEE30007000A /* UserHomeViewController.swift */,
+				F3A517412237BF110007000A /* GroceryDetailViewController.swift */,
+				F3A517432237BF4C0007000A /* FirstViewController.swift */,
+				F3A517452237BF720007000A /* LoginViewController.swift */,
+				F3A517472237BFAB0007000A /* SignUpViewController.swift */,
+				F3A517492237BFDD0007000A /* DeliveryAddressViewController.swift */,
+				F3A5174B2237C0550007000A /* PreferencesViewController.swift */,
+				F3A5174D2237C0760007000A /* HomeViewController.swift */,
+				F3A5174F2237C0A40007000A /* FacebookAuthenticationViewController.swift */,
+				F3A517512237C0D40007000A /* EmailSigninViewController.swift */,
+				F3A517532237C10C0007000A /* ForgotPasswordViewController.swift */,
+				F3A517552237C1780007000A /* CartViewController.swift */,
+				F3A517572237C19D0007000A /* ConfirmDeliveryAddressViewController.swift */,
+				F3A517592237C1C10007000A /* DeliveryDateTimeViewController.swift */,
+				F3A5175B2237C1DD0007000A /* DeliveryOptionsViewController.swift */,
+				F3A5175D2237C1FD0007000A /* PaymentDetailsViewController.swift */,
+				F3A5175F2237C2250007000A /* CreditCardDetailsViewController.swift */,
+				F3A517612237C2470007000A /* PaymentWithCardDetailViewController.swift */,
+				F3A517632237C2710007000A /* OrderConfirmationViewController.swift */,
+				F3A517652237C29E0007000A /* ThankyouViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F3A517672237D29B0007000A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F3A5177C2237D36F0007000A /* add.png */,
+				F3A517792237D36F0007000A /* addtocart.png */,
+				F3A5176E2237D36F0007000A /* back.png */,
+				F3A5177A2237D36F0007000A /* back@2x.png */,
+				F3A5176C2237D36F0007000A /* banner.png */,
+				F3A5176D2237D36F0007000A /* cart.png */,
+				F3A517712237D36F0007000A /* cart@2x.png */,
+				F3A517682237D36E0007000A /* check.png */,
+				F3A517782237D36F0007000A /* down.png */,
+				F3A517692237D36E0007000A /* down@2x.png */,
+				F3A517722237D36F0007000A /* facebook.png */,
+				F3A517752237D36F0007000A /* first.png */,
+				F3A5177B2237D36F0007000A /* first@2x.png */,
+				F3A5176A2237D36E0007000A /* first@3x.png */,
+				F3A5176F2237D36F0007000A /* first~ipad.png */,
+				F3A5177D2237D3700007000A /* first~ipad@2x.png */,
+				F3A5177E2237D3700007000A /* like.png */,
+				F3A517762237D36F0007000A /* minus-symbol.png */,
+				F3A517702237D36F0007000A /* orderdelivery.png */,
+				F3A5177F2237D3700007000A /* search.png */,
+				F3A517802237D3700007000A /* search@2x.png */,
+				F3A517742237D36F0007000A /* shoppingcart.png */,
+				F3A517732237D36F0007000A /* strip.png */,
+				F3A5176B2237D36E0007000A /* trash.png */,
+				F3A517772237D36F0007000A /* uncheck.png */,
+			);
+			name = Images;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		F3A5179A2237D69C0007000A /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				F3A5179C2237D6B10007000A /* GroceryCell.swift */,
+				F3A5179B2237D6B10007000A /* GroceryCell.xib */,
+				F3A5179D2237D6B10007000A /* HomeViewCell.swift */,
+				F3A5179E2237D6B10007000A /* HomeViewCell.xib */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F38620222237B478003E230D /* 2Hr Delivery Renovation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F386204B2237B47D003E230D /* Build configuration list for PBXNativeTarget "2Hr Delivery Renovation" */;
+			buildPhases = (
+				AD541D352238D36DB1D8292E /* [CP] Check Pods Manifest.lock */,
+				F386201F2237B478003E230D /* Sources */,
+				F38620202237B478003E230D /* Frameworks */,
+				F38620212237B478003E230D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2Hr Delivery Renovation";
+			productName = "2Hr Delivery Renovation";
+			productReference = F38620232237B478003E230D /* 2Hr Delivery Renovation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F38620362237B47D003E230D /* 2Hr Delivery RenovationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F386204E2237B47D003E230D /* Build configuration list for PBXNativeTarget "2Hr Delivery RenovationTests" */;
+			buildPhases = (
+				6B619612C5F0F457DBA3E34F /* [CP] Check Pods Manifest.lock */,
+				F38620332237B47D003E230D /* Sources */,
+				F38620342237B47D003E230D /* Frameworks */,
+				F38620352237B47D003E230D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F38620392237B47D003E230D /* PBXTargetDependency */,
+			);
+			name = "2Hr Delivery RenovationTests";
+			productName = "2Hr Delivery RenovationTests";
+			productReference = F38620372237B47D003E230D /* 2Hr Delivery RenovationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F38620412237B47D003E230D /* 2Hr Delivery RenovationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38620512237B47D003E230D /* Build configuration list for PBXNativeTarget "2Hr Delivery RenovationUITests" */;
+			buildPhases = (
+				6D675DD02FF19FF04158D889 /* [CP] Check Pods Manifest.lock */,
+				F386203E2237B47D003E230D /* Sources */,
+				F386203F2237B47D003E230D /* Frameworks */,
+				F38620402237B47D003E230D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F38620442237B47D003E230D /* PBXTargetDependency */,
+			);
+			name = "2Hr Delivery RenovationUITests";
+			productName = "2Hr Delivery RenovationUITests";
+			productReference = F38620422237B47D003E230D /* 2Hr Delivery RenovationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F386201B2237B477003E230D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Mitosis;
+				TargetAttributes = {
+					F38620222237B478003E230D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F38620362237B47D003E230D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F38620222237B478003E230D;
+					};
+					F38620412237B47D003E230D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F38620222237B478003E230D;
+					};
+				};
+			};
+			buildConfigurationList = F386201E2237B478003E230D /* Build configuration list for PBXProject "2Hr Delivery Renovation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F386201A2237B477003E230D;
+			productRefGroup = F38620242237B478003E230D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F38620222237B478003E230D /* 2Hr Delivery Renovation */,
+				F38620362237B47D003E230D /* 2Hr Delivery RenovationTests */,
+				F38620412237B47D003E230D /* 2Hr Delivery RenovationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F38620212237B478003E230D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A517962237D3700007000A /* first~ipad@2x.png in Resources */,
+				F3A517832237D3700007000A /* first@3x.png in Resources */,
+				F3A517972237D3700007000A /* like.png in Resources */,
+				F3A517A22237D6B10007000A /* HomeViewCell.xib in Resources */,
+				F3A517982237D3700007000A /* search.png in Resources */,
+				F3A517862237D3700007000A /* cart.png in Resources */,
+				F3A517932237D3700007000A /* back@2x.png in Resources */,
+				F3A517912237D3700007000A /* down.png in Resources */,
+				F3A517922237D3700007000A /* addtocart.png in Resources */,
+				F3A5179F2237D6B10007000A /* GroceryCell.xib in Resources */,
+				F3A517812237D3700007000A /* check.png in Resources */,
+				F3A517852237D3700007000A /* banner.png in Resources */,
+				F3A517822237D3700007000A /* down@2x.png in Resources */,
+				F3A517992237D3700007000A /* search@2x.png in Resources */,
+				F3A517942237D3700007000A /* first@2x.png in Resources */,
+				F38620312237B47D003E230D /* LaunchScreen.storyboard in Resources */,
+				F3A517902237D3700007000A /* uncheck.png in Resources */,
+				F3A5178D2237D3700007000A /* shoppingcart.png in Resources */,
+				F3A517952237D3700007000A /* add.png in Resources */,
+				F3A5178B2237D3700007000A /* facebook.png in Resources */,
+				F3A517872237D3700007000A /* back.png in Resources */,
+				F386202E2237B47D003E230D /* Assets.xcassets in Resources */,
+				F3A517882237D3700007000A /* first~ipad.png in Resources */,
+				F3A5178E2237D3700007000A /* first.png in Resources */,
+				F3A5178A2237D3700007000A /* cart@2x.png in Resources */,
+				F3A517842237D3700007000A /* trash.png in Resources */,
+				F3A5178F2237D3700007000A /* minus-symbol.png in Resources */,
+				F3A517892237D3700007000A /* orderdelivery.png in Resources */,
+				F3A5178C2237D3700007000A /* strip.png in Resources */,
+				F3A517392237BC970007000A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38620352237B47D003E230D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38620402237B47D003E230D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B619612C5F0F457DBA3E34F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-2Hr Delivery RenovationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D675DD02FF19FF04158D889 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-2Hr Delivery RenovationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD541D352238D36DB1D8292E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-2Hr Delivery Renovation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F386201F2237B478003E230D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A517622237C2470007000A /* PaymentWithCardDetailViewController.swift in Sources */,
+				F3A517462237BF720007000A /* LoginViewController.swift in Sources */,
+				F3A517422237BF110007000A /* GroceryDetailViewController.swift in Sources */,
+				F3A5175A2237C1C10007000A /* DeliveryDateTimeViewController.swift in Sources */,
+				F3A517482237BFAB0007000A /* SignUpViewController.swift in Sources */,
+				F38620292237B478003E230D /* ViewController.swift in Sources */,
+				F3A517662237C29E0007000A /* ThankyouViewController.swift in Sources */,
+				F3A517A02237D6B10007000A /* GroceryCell.swift in Sources */,
+				F3A5175C2237C1DD0007000A /* DeliveryOptionsViewController.swift in Sources */,
+				F3A517602237C2250007000A /* CreditCardDetailsViewController.swift in Sources */,
+				F3A5175E2237C1FD0007000A /* PaymentDetailsViewController.swift in Sources */,
+				F38620272237B478003E230D /* AppDelegate.swift in Sources */,
+				F3A5174C2237C0550007000A /* PreferencesViewController.swift in Sources */,
+				F3A517502237C0A40007000A /* FacebookAuthenticationViewController.swift in Sources */,
+				F3A517562237C1780007000A /* CartViewController.swift in Sources */,
+				F3A5174A2237BFDD0007000A /* DeliveryAddressViewController.swift in Sources */,
+				F3A517542237C10C0007000A /* ForgotPasswordViewController.swift in Sources */,
+				F3A517A12237D6B10007000A /* HomeViewCell.swift in Sources */,
+				F3A5174E2237C0760007000A /* HomeViewController.swift in Sources */,
+				F3A517442237BF4C0007000A /* FirstViewController.swift in Sources */,
+				F3A517582237C19D0007000A /* ConfirmDeliveryAddressViewController.swift in Sources */,
+				F3A517402237BEE30007000A /* UserHomeViewController.swift in Sources */,
+				F3A517522237C0D40007000A /* EmailSigninViewController.swift in Sources */,
+				F3A517642237C2710007000A /* OrderConfirmationViewController.swift in Sources */,
+				F3A5173E2237BEB30007000A /* GroceryViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38620332237B47D003E230D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F386203C2237B47D003E230D /* _Hr_Delivery_RenovationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F386203E2237B47D003E230D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38620472237B47D003E230D /* _Hr_Delivery_RenovationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F38620392237B47D003E230D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F38620222237B478003E230D /* 2Hr Delivery Renovation */;
+			targetProxy = F38620382237B47D003E230D /* PBXContainerItemProxy */;
+		};
+		F38620442237B47D003E230D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F38620222237B478003E230D /* 2Hr Delivery Renovation */;
+			targetProxy = F38620432237B47D003E230D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F386202F2237B47D003E230D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F38620302237B47D003E230D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F38620492237B47D003E230D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F386204A2237B47D003E230D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F386204C2237B47D003E230D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 548A1CB1DBC6648A7766227D /* Pods-2Hr Delivery Renovation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743NUZ9ERZ;
+				INFOPLIST_FILE = "2Hr Delivery Renovation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mitosis.-Hr-Delivery-Renovation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F386204D2237B47D003E230D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECF934EEB8201652C3A95CC1 /* Pods-2Hr Delivery Renovation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743NUZ9ERZ;
+				INFOPLIST_FILE = "2Hr Delivery Renovation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mitosis.-Hr-Delivery-Renovation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F386204F2237B47D003E230D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D916F3306B9F1FF458478AB /* Pods-2Hr Delivery RenovationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743NUZ9ERZ;
+				INFOPLIST_FILE = "2Hr Delivery RenovationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mitosis.-Hr-Delivery-RenovationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2Hr Delivery Renovation.app/2Hr Delivery Renovation";
+			};
+			name = Debug;
+		};
+		F38620502237B47D003E230D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B75751AB296A848AC963822B /* Pods-2Hr Delivery RenovationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743NUZ9ERZ;
+				INFOPLIST_FILE = "2Hr Delivery RenovationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mitosis.-Hr-Delivery-RenovationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2Hr Delivery Renovation.app/2Hr Delivery Renovation";
+			};
+			name = Release;
+		};
+		F38620522237B47D003E230D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3648655402D3B8AF2DAB642 /* Pods-2Hr Delivery RenovationUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743NUZ9ERZ;
+				INFOPLIST_FILE = "2Hr Delivery RenovationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mitosis.-Hr-Delivery-RenovationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "2Hr Delivery Renovation";
+			};
+			name = Debug;
+		};
+		F38620532237B47D003E230D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1178CA176A034B2AF2C83B0C /* Pods-2Hr Delivery RenovationUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743NUZ9ERZ;
+				INFOPLIST_FILE = "2Hr Delivery RenovationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mitosis.-Hr-Delivery-RenovationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "2Hr Delivery Renovation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F386201E2237B478003E230D /* Build configuration list for PBXProject "2Hr Delivery Renovation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38620492237B47D003E230D /* Debug */,
+				F386204A2237B47D003E230D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F386204B2237B47D003E230D /* Build configuration list for PBXNativeTarget "2Hr Delivery Renovation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F386204C2237B47D003E230D /* Debug */,
+				F386204D2237B47D003E230D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F386204E2237B47D003E230D /* Build configuration list for PBXNativeTarget "2Hr Delivery RenovationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F386204F2237B47D003E230D /* Debug */,
+				F38620502237B47D003E230D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F38620512237B47D003E230D /* Build configuration list for PBXNativeTarget "2Hr Delivery RenovationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38620522237B47D003E230D /* Debug */,
+				F38620532237B47D003E230D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F386201B2237B477003E230D /* Project object */;
+}
