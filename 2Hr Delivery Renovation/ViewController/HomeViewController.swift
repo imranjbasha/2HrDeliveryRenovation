@@ -18,7 +18,6 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
         self.productsList.dataSource = self
         self.productsList.delegate = self
         self.productsList.register(UINib(nibName: "HomeViewCell", bundle: nil), forCellWithReuseIdentifier: "HomeViewCell")
-
         // Do any additional setup after loading the view.
     }
     
@@ -49,8 +48,8 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "HomeViewCell", for: indexPath) as! HomeViewCell
         cell.namelbl.text = self.productsNamesList[indexPath.row]
         cell.varientlbl.text = self.productsPriceList[indexPath.row]
+        cell.img.image = UIImage(named: "shoppingcart")
         return cell
-        
     }
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
