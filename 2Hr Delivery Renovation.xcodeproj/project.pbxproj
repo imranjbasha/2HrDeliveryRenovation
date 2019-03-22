@@ -68,7 +68,7 @@
 		F3A517A12237D6B10007000A /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A5179D2237D6B10007000A /* HomeViewCell.swift */; };
 		F3A517A22237D6B10007000A /* HomeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3A5179E2237D6B10007000A /* HomeViewCell.xib */; };
 		F3A5235522438E0D00B2EA66 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A5235422438E0D00B2EA66 /* MenuTableViewController.swift */; };
-		F3F963A32242620C00DF26CF /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F963A22242620C00DF26CF /* InitialViewController.swift */; };
+		F3C05D8D22451501007A99FA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C05D8C22451501007A99FA /* MenuViewController.swift */; };
 		F3F963A72242624F00DF26CF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F963A62242624F00DF26CF /* MainViewController.swift */; };
 		F3F963AC2242738300DF26CF /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F963AA2242738300DF26CF /* MenuItemCell.swift */; };
 		F3F963AD2242738300DF26CF /* MenuItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3F963AB2242738300DF26CF /* MenuItemCell.xib */; };
@@ -165,7 +165,7 @@
 		F3A5179D2237D6B10007000A /* HomeViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
 		F3A5179E2237D6B10007000A /* HomeViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewCell.xib; sourceTree = "<group>"; };
 		F3A5235422438E0D00B2EA66 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
-		F3F963A22242620C00DF26CF /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		F3C05D8C22451501007A99FA /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		F3F963A62242624F00DF26CF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F3F963AA2242738300DF26CF /* MenuItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
 		F3F963AB2242738300DF26CF /* MenuItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuItemCell.xib; sourceTree = "<group>"; };
@@ -302,9 +302,9 @@
 				F3A517612237C2470007000A /* PaymentWithCardDetailViewController.swift */,
 				F3A517632237C2710007000A /* OrderConfirmationViewController.swift */,
 				F3A517652237C29E0007000A /* ThankyouViewController.swift */,
-				F3F963A22242620C00DF26CF /* InitialViewController.swift */,
 				F3F963A62242624F00DF26CF /* MainViewController.swift */,
 				F3A5235422438E0D00B2EA66 /* MenuTableViewController.swift */,
+				F3C05D8C22451501007A99FA /* MenuViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -587,7 +587,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3A517622237C2470007000A /* PaymentWithCardDetailViewController.swift in Sources */,
-				F3F963A32242620C00DF26CF /* InitialViewController.swift in Sources */,
 				F3A517462237BF720007000A /* LoginViewController.swift in Sources */,
 				F3F963AC2242738300DF26CF /* MenuItemCell.swift in Sources */,
 				F3A517422237BF110007000A /* GroceryDetailViewController.swift in Sources */,
@@ -596,6 +595,7 @@
 				F3F963A72242624F00DF26CF /* MainViewController.swift in Sources */,
 				F38620292237B478003E230D /* ViewController.swift in Sources */,
 				F3A517662237C29E0007000A /* ThankyouViewController.swift in Sources */,
+				F3C05D8D22451501007A99FA /* MenuViewController.swift in Sources */,
 				F3A517A02237D6B10007000A /* GroceryCell.swift in Sources */,
 				F3A5175C2237C1DD0007000A /* DeliveryOptionsViewController.swift in Sources */,
 				F3A517602237C2250007000A /* CreditCardDetailsViewController.swift in Sources */,

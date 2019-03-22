@@ -21,8 +21,6 @@ class MenuTableViewController: UIViewController, UITableViewDelegate, UITableVie
         self.menuListTableView.delegate = self
         self.menuListTableView.dataSource = self
         self.menuListTableView.register(UINib(nibName: "MenuItemCell", bundle: nil), forCellReuseIdentifier: "MenuItemCell")
-        fullView.layer.borderColor = UIColor.black.cgColor
-        fullView.layer.borderWidth = 2
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
