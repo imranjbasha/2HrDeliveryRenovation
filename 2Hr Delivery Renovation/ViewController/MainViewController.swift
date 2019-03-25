@@ -67,6 +67,7 @@ class MainViewController: UIViewController {
             self.menuView.layoutIfNeeded()
             self.menuView.backgroundColor = UIColor.clear
         }, completion: nil)*/
+        if self.isSlideMenuOpen == false {
         let menuVC : MenuViewController = self.storyboard!.instantiateViewController(withIdentifier: "MenuViewController") as! MenuViewController
         self.view.addSubview(menuVC.view)
         self.addChild(menuVC)
@@ -74,7 +75,10 @@ class MainViewController: UIViewController {
         menuVC.view.frame=CGRect(x: 0 - UIScreen.main.bounds.size.width, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height);
         UIView.animate(withDuration: 0.3, animations: { () -> Void in
             menuVC.view.frame=CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height);
-        }, completion:nil)
+        }, completion: { (finished) -> Void in
+            self.isSlideMenuOpen = true
+        })
+        }
     }
     
     func closeSideMenu(){
@@ -86,6 +90,8 @@ class MainViewController: UIViewController {
                 self.menuView.layoutIfNeeded()
                 self.menuView.backgroundColor = UIColor.clear
         })*/
+        if self.isSlideMenuOpen == true {
+            
         let viewMenuBack : UIView = view.subviews.last!
         
         UIView.animate(withDuration: 0.3, animations: { () -> Void in
@@ -96,7 +102,9 @@ class MainViewController: UIViewController {
             viewMenuBack.backgroundColor = UIColor.clear
         }, completion: { (finished) -> Void in
             viewMenuBack.removeFromSuperview()
+            self.isSlideMenuOpen = false
         })
+        }
     }
 
     /*
