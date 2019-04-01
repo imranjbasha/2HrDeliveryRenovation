@@ -10,14 +10,11 @@ import UIKit
 
 class HomeViewCell: UICollectionViewCell {
 
-    @IBOutlet weak var img: UIImageView!
-    @IBOutlet weak var namelbl: UILabel!
-    @IBOutlet weak var Innerview: UIView!
-    @IBOutlet weak var bgview: UIView!
-    @IBOutlet weak var varientButton: UIButton!
-    @IBOutlet weak var dropview: UIView!
-    @IBOutlet weak var varientlbl: UILabel!
-
+  
+    @IBOutlet weak var productImage: UIImageView!
+    @IBOutlet weak var productName: UILabel!
+    
+    @IBOutlet weak var productPrice: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         
